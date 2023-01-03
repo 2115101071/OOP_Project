@@ -30,5 +30,9 @@ public class MyWorld extends World
         addObject(hero,84,143);
         Hero hero2 = new Hero();
         addObject(hero2,87,285);
+        Enemy enemy = new Enemy();
+        addObject(enemy,511,132);
+        Enemy enemy2 = new Enemy(5);
+        addObject(enemy2,454,272);
     }
 }

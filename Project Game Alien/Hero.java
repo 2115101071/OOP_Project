@@ -16,5 +16,7 @@ public class Hero extends Actor
     {
         // Add your action code here.
         move(3);
+        if (isAtEdge())
+            setLocation(0, getY());
     }
 }

@@ -25,5 +25,7 @@ public class Enemy extends Actor
     {
         // Add your action code here.
         move(speed);
+        if(isAtEdge())
+            getWorld().removeObject(this);
     }
 }

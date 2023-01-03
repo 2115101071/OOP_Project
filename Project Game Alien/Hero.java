@@ -32,4 +32,12 @@ public class Hero extends Actor
             setLocation(getX()+4,getY());
         
     }
+    
+    int laserTimer = 0;
+    public void shootLaser(){
+        if (laserTimer == 30){
+            addObject(new Laser), getX(), getY());
+            laserTimer = 
+        }
+    }
 }
